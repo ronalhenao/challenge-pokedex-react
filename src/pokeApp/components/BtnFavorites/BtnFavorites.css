@@ -1,0 +1,14 @@
+.btn-favorites{
+  border-radius: 10px;
+  padding: 4px 10px;
+  font-weight: 500;
+  color: var(--color-white);
+  background: #979797;
+  font-size: 12px;
+  line-height: 1;
+  border: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 8px;
+}

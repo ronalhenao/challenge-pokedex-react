@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --main-font:'Rubik', sans-serif;
+  --tw-bg-opacity: 1;
+  --color-red: #dc0a2d;
+  --color-white: #ffffff;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--main-font);
+  font-size: 1rem;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #212121;
+}
+
+.main{
+  text-align: center;
+}
+
+.pokemons-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 60px;
+}
+
+.pokemons-list--favorites{
+  justify-content: center;
+}
+
+.list-item{
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
+  background-color: var(--color-white);
+  width: 8.85rem;
+  height: 8.85rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.list-number{
+  min-height: 16px;
+  text-align: right;
+  padding: 8px 8px 0 8px;
+}
+
+.list-number > span{
+  font-size: 0.5rem;
+  margin: 2px 0;
+  color: #212121;
+  display: block;
+}
+
+.list-image{
+  width: 72px;
+  height: 72px;
+  margin: auto;
+}
+
+.list-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.list-name{
+    border-radius: 7px;
+    background-color: #efefef;
+    padding: 24px 8px 4px 8px;
+    color: #212121;
+    margin-top: -18px;
+}
+
+.list-name h3 {
+  text-transform: capitalize;
+  font-size: 0.75rem;
+  line-height: 19px;
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+.back-list{
+  font-size: 0.875rem;
+  border-radius: 9999px;
+  border: 1px solid #202020;
+  padding: 8px 22px;
+  margin: 30px 0;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.message-notFound{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.spinner{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+
